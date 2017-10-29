@@ -1,0 +1,22 @@
+{
+  "plugins": [ "angular" ],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "brace-style": [2, "1tbs", { "allowSingleLine": false } ],
+    "complexity": [2, 10],
+    "strict": [2, "global"],
+    "max-len": [2, 120, 4],
+    "no-use-before-define": [2, "nofunc"],
+    "quotes": [2, "single", "avoid-escape"],
+    "yoda": 0,
+    "no-console": 1,
+    "curly": [2, "multi-line"],
+    "new-cap": 0,
+
+    // angular rules
+    "angular/ng_module_setter" : 0,
+    "angular/ng_module_getter" : 0
+  }
+}
